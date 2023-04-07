@@ -1,0 +1,10 @@
+<!-- team # -->
+<div class="card-body mb-3">
+  <div class="card" style="width: 18rem">
+    <div class="card-header text-primary fw-bold">Team {{ index + 1 }}</div>
+    <!-- members -->
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" *ngFor="let member of team">{{ member }}</li>
+    </ul>
+  </div>
+</div>
